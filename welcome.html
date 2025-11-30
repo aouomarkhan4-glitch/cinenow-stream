@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineNow - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .welcome-page-header {
+            background-color: #000;
+            padding: 15px 40px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .welcome-page-header .nav-link {
+            margin-right: 20px;
+        }
+        .welcome-content {
+            padding-top: 20px;
+            padding-bottom: 80px;
+            text-align: center;
+        }
+        .dashboard-hero {
+            padding: 50px 20px;
+            background-color: #111;
+            margin-bottom: 50px;
+        }
+        .dashboard-hero h1 {
+            color: #E50914;
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="welcome-page-header">
+        <h1 style="color: white; font-size: 1.5rem; margin: 0;">CINE<span style="color: #E50914;">NOW</span></h1>
+        <nav>
+            <a href="welcome.html" class="nav-link">Home</a>
+            <a href="movies.html" class="nav-link">Movies</a>
+            <a href="series.html" class="nav-link">Series</a>
+        </nav>
+    </header>
+
+    <main class="welcome-content">
+        <div class="dashboard-hero">
+            <h1>Welcome Back!</h1>
+            <p style="font-size: 1.2rem; color: #AAA;">Discover the latest trending movies and series just for you.</p>
+        </div>
+
+        <div class="content-row">
+            <section class="movie-posters-section" id="movies-dashboard-section">
+                <h2 class="section-title">Latest Movie Releases</h2>
+                <div class="posters-grid">
+                    <a href="movies.html" class="poster-link">
+                        <img src="movie1.jpeg" alt="Movie Poster 1" class="poster-image">
+                    </a>
+                    <a href="movies.html" class="poster-link">
+                        <img src="movie2.jpeg" alt="Movie Poster 2" class="poster-image">
+                    </a>
+                    <a href="movies.html" class="poster-link">
+                        <img src="movie3.jpeg" alt="Movie Poster 3" class="poster-image">
+                    </a>
+                    <a href="movies.html" class="poster-link">
+                        <img src="movie4.jpeg" alt="Movie Poster 4" class="poster-image">
+                    </a>
+                    <a href="movies.html" class="poster-link">
+                        <img src="movie5.jpeg" alt="Movie Poster 5" class="poster-image">
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <div class="content-row">
+            <section class="movie-posters-section" id="series-dashboard-section">
+                <h2 class="section-title">Top Rated Series</h2>
+                <div class="posters-grid">
+                    <a href="series.html" class="poster-link">
+                        <img src="series1.jpeg" alt="Series Poster 1" class="poster-image">
+                    </a>
+                    <a href="series.html" class="poster-link">
+                        <img src="series2.jpeg" alt="Series Poster 2" class="poster-image">
+                    </a>
+                    <a href="series.html" class="poster-link">
+                        <img src="series3.jpeg" alt="Series Poster 3" class="poster-image">
+                    </a>
+                    <a href="series.html" class="poster-link">
+                        <img src="series4.jpeg" alt="Series Poster 4" class="poster-image">
+                    </a>
+                    <a href="series.html" class="poster-link">
+                        <img src="series5.jpeg" alt="Series Poster 5" class="poster-image">
+                    </a>
+                </div>
+            </section>
+        </div>
+        
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 CineNow Inc. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Help Center</a> | 
+                <a href="#">Account</a> |
+                <a href="welcome.html">Dashboard</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineNow - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="auth-page">
+        <div class="auth-form-container">
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <label for="signup-name">Name (Max 14 letters):</label>
+                <input type="text" id="signup-name" name="name" required>
+
+                <label for="signup-email">Email (Must be @gmail.com):</label>
+                <input type="email" id="signup-email" name="email" required>
+
+                <label for="signup-password">Password (8 characters/digits):</label>
+                <input type="password" id="signup-password" name="password" required>
+
+                <label for="signup-confirm-password">Confirm Password:</label>
+                <input type="password" id="signup-confirm-password" name="confirm-password" required>
+
+                <button type="submit" class="form-submit-btn">Create Account</button>
+                
+                <span id="formError" class="error-message"></span>
+            </form>
+            <div class="switch-auth-link">
+                Already have an account? <a href="login.html">Log In here.</a>
+            </div>
+        </div>
+    </div>
+    <script src="validation.js"></script>
+</body>
+</html>
